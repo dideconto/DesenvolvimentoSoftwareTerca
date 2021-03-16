@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		int opcao;
+		Scanner sc = new Scanner(System.in);
+		
+		do {			
+			System.out.println("  -- PROJETO DE VENDAS --  ");
+			System.out.println("\n1 - Cadastrar cliente");
+			System.out.println("2 - Listar clientes");
+			System.out.println("0 - Sair");
+			System.out.println("\nDigite a opção desejada: ");
+			opcao = sc.nextInt();
+		} while (opcao != 0);
+		
+	}
+
+}

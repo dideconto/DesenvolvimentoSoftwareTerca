@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Exe04 {
+
+	public static void main(String[] args) {
+		
+		int idade;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a idade da pessoa: ");
+		idade = sc.nextInt();
+
+	}
+
+}

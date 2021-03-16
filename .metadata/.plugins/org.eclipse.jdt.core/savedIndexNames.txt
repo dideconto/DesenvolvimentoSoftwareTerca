@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\Diogo Deconto\Documents\Aulas\CTPositivo\Desenvolvimento de Software\Terça - Manhã - Osório\Workspace\.metadata\.plugins\org.eclipse.jdt.core
+3553744582.index
