@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Principal {
@@ -19,6 +20,7 @@ public class Principal {
 			opcao = sc.nextInt();
 			switch (opcao) {
 			case 1:	
+				cliente = new Cliente();
 				System.out.println("\n-- CADASTRAR CLIENTE --  \n");				
 				System.out.println("Digite o nome do cliente:");	
 				cliente.setNome(sc.next());					
@@ -28,8 +30,10 @@ public class Principal {
 				System.out.println("\nCliente cadastrado com sucesso!");
 				break;
 			case 2:	
-				System.out.println("\n-- LISTAR CLIENTES --  \n");	
-				System.out.println(clientes);
+				System.out.println("\n-- LISTAR CLIENTES --  \n");
+				for(Cliente clienteCadastrado : clientes) {
+					System.out.println(clienteCadastrado);
+				}
 				break;
 			case 0:	
 				System.out.println("\nSaindo...");			

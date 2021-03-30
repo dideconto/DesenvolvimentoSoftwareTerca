@@ -2,16 +2,18 @@ import java.util.Date;
 
 // Modificador de acesso - public, private e protected
 public class Cliente {
-	
+
 	public Cliente(String cpf) {
 		this.cpf = cpf;
 		this.estaAtivo = true;
 		this.criadoEm = new Date();
 		System.out.println("O objeto foi criado...");
 	}
-	
-	public Cliente() {}
-	
+
+	public Cliente() {
+		this.criadoEm = new Date();
+	}
+
 	//Característica, atributo ou propriedade
 	//O atributo dentro de uma classe de modelo, sempre deve ser privado!
 	private String nome;
@@ -51,7 +53,7 @@ public class Cliente {
 	public void setCriadoEm(Date criadoEm) {
 		this.criadoEm = criadoEm;
 	}
-	
+
 	@Override
 	public boolean equals(Object obj) {
 		Cliente cliente = (Cliente) obj;
@@ -64,7 +66,7 @@ public class Cliente {
 	public String toString() {
 		return "Nome: " + nome + " | CPF: " + cpf + " | Criado em: " + criadoEm;
 	}
-	
+
 }
 
 
