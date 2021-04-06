@@ -57,9 +57,7 @@ public class Cliente {
 	@Override
 	public boolean equals(Object obj) {
 		Cliente cliente = (Cliente) obj;
-		if(cliente.getNome().equals(nome) && cliente.getCpf().equals(cpf))
-			return true;
-		return false;
+		return cliente.getNome() == nome && cliente.getCpf() == cpf;
 	}
 
 	@Override

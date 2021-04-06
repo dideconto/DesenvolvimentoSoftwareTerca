@@ -1,3 +1,4 @@
+package models;
 import java.util.Date;
 
 // Modificador de acesso - public, private e protected
@@ -33,7 +34,7 @@ public class Cliente {
 	public void setCriadoEm(Date criadoEm) {
 		this.criadoEm = criadoEm;
 	}
-
+	
 	@Override
 	public String toString() {
 		return "Nome: " + nome + " | CPF: " + cpf + " | Criado em: " + criadoEm;
