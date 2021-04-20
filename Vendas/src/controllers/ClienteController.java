@@ -13,14 +13,22 @@ public class ClienteController {
 	}
 
 	public static boolean cadastrar(Cliente cliente) {
-		for(Cliente clienteCadastrado : clientes) {
-			if(clienteCadastrado.getCpf().equals(cliente.getCpf())) {
-				return false;
-			}
-		}			
-		clientes.add(cliente);
-		return true;
+		if(buscarPorCpf(cliente.getCpf()) == null) {
+			clientes.add(cliente);
+			return true;
+		}
+		return false;
 	}	
+
+	public static Cliente buscarPorCpf(String cpf) {
+		for(Cliente clienteCadastrado : clientes) {
+			if(clienteCadastrado.getCpf().equals(cpf)) {
+				return clienteCadastrado;
+			}
+		}	
+		return null;
+	}
+
 }
 
 

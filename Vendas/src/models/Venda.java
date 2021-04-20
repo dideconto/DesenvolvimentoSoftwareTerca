@@ -8,7 +8,7 @@ public class Venda {
 	public Venda() {
 		setCriadoEm(new Date());
 	}
-//	
+
 	private Date criadoEm;
 	private Cliente cliente;
 	private Vendedor vendedor;

@@ -3,6 +3,7 @@ package models;
 import java.util.Date;
 
 public class ItemVenda {
+	
 	public ItemVenda() {
 		setCriadoEm(new Date());
 	}
