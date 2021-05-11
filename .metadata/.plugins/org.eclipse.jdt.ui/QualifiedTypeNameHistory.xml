@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="java.text.DateFormat"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
@@ -9,7 +7,6 @@
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
     <fullyQualifiedTypeName name="views.ListarClientes"/>
     <fullyQualifiedTypeName name="views.CadastrarCliente"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="views.ListarVendedores"/>
     <fullyQualifiedTypeName name="models.Venda"/>
     <fullyQualifiedTypeName name="models.Cliente"/>
@@ -18,6 +15,13 @@
     <fullyQualifiedTypeName name="models.Vendedor"/>
     <fullyQualifiedTypeName name="controllers.ProdutoController"/>
     <fullyQualifiedTypeName name="models.ItemVenda"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="controllers.VendaController"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="models.Funcionario"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="controllers.FuncionarioController"/>
+    <fullyQualifiedTypeName name="models.Folha"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="controllers.FolhaController"/>
 </qualifiedTypeNameHistroy>
