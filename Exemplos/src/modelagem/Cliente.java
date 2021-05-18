@@ -1,3 +1,4 @@
+package modelagem;
 import java.util.Date;
 
 // Modificador de acesso - public, private e protected

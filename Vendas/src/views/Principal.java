@@ -2,10 +2,10 @@ package views;
 import java.util.Scanner;
 
 import models.Venda;
+import utils.Console;
 
 
 public class Principal {
-	private static Scanner sc = new Scanner(System.in);
 	Venda venda = new Venda();
 	public static void main(String[] args) {		
 		int opcao;
@@ -19,14 +19,14 @@ public class Principal {
 			System.out.println("6 - Listar produtos");
 			System.out.println("7 - Cadastrar venda");
 			System.out.println("0 - Sair");
-			System.out.println("\nDigite a opção desejada: ");
-			opcao = sc.nextInt();
+			opcao = Console.lerInteiro("\nDigite a opção desejada: ");
 			switch (opcao) {
 			case 1:	
 				CadastrarCliente.renderizar();
 				break;
 			case 2:	
 				ListarClientes.renderizar();
+				break;
 			case 3:	
 				CadastrarVendedor.renderizar();
 				break;
