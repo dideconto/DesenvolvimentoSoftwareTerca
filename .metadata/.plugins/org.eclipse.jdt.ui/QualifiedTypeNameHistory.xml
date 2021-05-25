@@ -17,7 +17,6 @@
     <fullyQualifiedTypeName name="models.ItemVenda"/>
     <fullyQualifiedTypeName name="controllers.VendaController"/>
     <fullyQualifiedTypeName name="models.Funcionario"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="controllers.FuncionarioController"/>
     <fullyQualifiedTypeName name="models.Folha"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -29,4 +28,8 @@
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="utils.Console"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="heranca.Midia"/>
+    <fullyQualifiedTypeName name="heranca.MidiaFisica"/>
+    <fullyQualifiedTypeName name="heranca.Livro"/>
 </qualifiedTypeNameHistroy>
