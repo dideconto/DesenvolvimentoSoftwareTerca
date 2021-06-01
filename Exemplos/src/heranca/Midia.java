@@ -4,8 +4,9 @@ import java.util.Date;
 
 public abstract class Midia {
 	
-	public Midia() {
+	public Midia(String dono) {
 		setCriadoEm(new Date());
+		System.out.println("Dono: " + dono);
 	}
 	
 	private int codigo;
@@ -43,12 +44,29 @@ public abstract class Midia {
 	}
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
-	}
-	
+	}	
+		
 	@Override
 	public String toString() {
 		return "Código: " + codigo + "\nTítulo: " + titulo + "\nPreço: " + preco + "\nCategoria: " + categoria
 				+ "\nCriado em: " + criadoEm;
 	}
 	
+	public String retornarTipo() {
+		return "Tipo mídia -> ";
+	}
+	
+	public abstract void obrigarImplementaçãoClasseFilha();
+	
 }
+
+
+
+
+
+
+
+
+
+
+

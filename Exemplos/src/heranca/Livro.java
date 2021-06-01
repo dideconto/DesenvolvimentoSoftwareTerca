@@ -2,20 +2,37 @@ package heranca;
 
 public class Livro extends MidiaFisica{
 	
-	private String Isbn;
+	public Livro(String dono) {
+		super(dono);
+	}
+
+	private String isbn;
 
 	public String getIsbn() {
-		return Isbn;
+		return isbn;
 	}
 
 	public void setIsbn(String isbn) {
-		Isbn = isbn;
+		this.isbn = isbn;
 	}
 
 	@Override
 	public String toString() {
-		return super.toString() + "\nIsbn: " + Isbn;
+		return super.toString() + "\nIsbn: " + isbn;
 	}
 
+	@Override
+	public String retornarTipo() {
+		return super.retornarTipo() + "Tipo Livro";
+	}
+
+	@Override
+	public void obrigarImplementaçãoClasseFilha() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
+
+
+

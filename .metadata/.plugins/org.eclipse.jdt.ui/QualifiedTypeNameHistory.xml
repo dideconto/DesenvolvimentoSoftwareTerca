@@ -19,7 +19,6 @@
     <fullyQualifiedTypeName name="models.Funcionario"/>
     <fullyQualifiedTypeName name="controllers.FuncionarioController"/>
     <fullyQualifiedTypeName name="models.Folha"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="controllers.FolhaController"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
@@ -30,6 +29,8 @@
     <fullyQualifiedTypeName name="utils.Console"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="heranca.Midia"/>
-    <fullyQualifiedTypeName name="heranca.MidiaFisica"/>
     <fullyQualifiedTypeName name="heranca.Livro"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="heranca.MidiaFisica"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
