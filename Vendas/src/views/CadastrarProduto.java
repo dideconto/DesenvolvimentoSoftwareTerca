@@ -17,13 +17,13 @@ public class CadastrarProduto {
 		System.out.println("Digite o nome do produto:");	
 		produto.setNome(sc.next());	
 		System.out.println("Digite o valor do produto:");	
-		produto.setValor(sc.nextDouble());
+		produto.setPreco(sc.nextDouble());
 		System.out.println("Digite a quantidade do produto:");	
 		produto.setQuantidade(sc.nextInt());
 		if(ProdutoController.cadastrar(produto)) {
 			System.out.println("\nProduto cadastrado com sucesso!");
 		}else {
-			System.out.println("Esse produto já existe!");
+			System.out.println("Esse produto jï¿½ existe!");
 		}
 	}
 }

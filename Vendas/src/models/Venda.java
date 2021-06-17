@@ -12,13 +12,13 @@ public class Venda {
 	private Date criadoEm;
 	private Cliente cliente;
 	private Vendedor vendedor;
-	private ArrayList<ItemVenda> itensVenda;
+	private ArrayList<ItemVenda> itens;
 	
 	public ArrayList<ItemVenda> getItensVenda() {
-		return itensVenda;
+		return itens;
 	}
-	public void setItensVenda(ArrayList<ItemVenda> itensVenda) {
-		this.itensVenda = itensVenda;
+	public void setItens(ArrayList<ItemVenda> itensVenda) {
+		this.itens = itensVenda;
 	}
 	public Date getCriadoEm() {
 		return criadoEm;

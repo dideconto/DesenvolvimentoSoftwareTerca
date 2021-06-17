@@ -32,5 +32,9 @@
     <fullyQualifiedTypeName name="heranca.Livro"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="heranca.MidiaFisica"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+    <fullyQualifiedTypeName name="exemploInterface.Cliente"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="exemploInterface.ClienteController"/>
+    <fullyQualifiedTypeName name="exemploInterface.ICliente"/>
 </qualifiedTypeNameHistroy>

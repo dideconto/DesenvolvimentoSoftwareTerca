@@ -34,16 +34,25 @@ public class Principal {
 		System.out.println("\n" + revista);		
 		
 		ArrayList<Midia> midias = new ArrayList<Midia>();
+		midias.add(livro);
 		midias.add(revista);
-		midias.add(livro);				
+		
+		livro = new Livro("");
+		revista = new Revista("");
 
 		for (Midia midia : midias) {
 			System.out.println("\n=======================================\n");
-			System.out.println(midia.retornarTipo());
-		}
-		
+			System.out.println(midia.retornarTipo());			
+			//Casting ou cast
+			try {
+				livro = (Livro) midia;
+				System.out.println("ISBN: " + livro.getIsbn());
+			} catch (ClassCastException e) {
+				revista = (Revista) midia;
+				System.out.println("Reportagem: " + revista.getReportagem());
+			}
+		}		
 	}
-
 }
 
 //System.out.println("Código: " + livro.getCodigo());

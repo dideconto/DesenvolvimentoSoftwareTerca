@@ -1,42 +1,31 @@
 package models;
-import java.util.Date;
 
-// Modificador de acesso - public, private e protected
-public class Cliente {
-
-	public Cliente() {
-		this.criadoEm = new Date();
-	}
+public class Cliente extends Pessoa{
 	
-	//Característica, atributo ou propriedade
-	//O atributo dentro de uma classe de modelo, sempre deve ser privado!
-	private String nome;
-	private String cpf;
-	private Date criadoEm;
-	
-	//Getters and Setters
-	public void setNome(String nome) {
-		this.nome = nome;
-	}	
-	public String getNome() {
-		return this.nome;
-	}	
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}	
-	public String getCpf() {
-		return this.cpf;
+	private String email;
+
+	public String getEmail() {
+		return email;
 	}
 
-	public Date getCriadoEm() {
-		return criadoEm;
-	}
-	public void setCriadoEm(Date criadoEm) {
-		this.criadoEm = criadoEm;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 	@Override
 	public String toString() {
-		return "Nome: " + nome + " | CPF: " + cpf + " | Criado em: " + criadoEm;
+		return super.toString() + " | E-mail: " + getEmail();
 	}
+	
 }
+
+
+
+
+
+
+
+
+
+
+

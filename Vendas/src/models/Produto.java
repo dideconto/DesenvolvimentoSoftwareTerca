@@ -8,14 +8,14 @@ public class Produto {
 		setCriadoEm(new Date());
 	}
 	
-	public Produto(String nome, double valor, int quantidade) {
+	public Produto(String nome, double preco, int quantidade) {
 		this.nome = nome;
-		this.valor = valor;
+		this.preco = preco;
 		this.quantidade = quantidade;
 	}
 	
 	private String nome;
-	private double valor;
+	private double preco;
 	private int quantidade;
 	private Date criadoEm;
 	
@@ -31,11 +31,11 @@ public class Produto {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public double getValor() {
-		return valor;
+	public double getPreco() {
+		return preco;
 	}
-	public void setValor(double valor) {
-		this.valor = valor;
+	public void setPreco(double valor) {
+		this.preco = valor;
 	}
 	public int getQuantidade() {
 		return quantidade;
@@ -46,7 +46,7 @@ public class Produto {
 
 	@Override
 	public String toString() {
-		return "Nome: " + getNome() + " | Valor: " + getValor() + " | Quantidade: " + getQuantidade() + 
+		return "Nome: " + getNome() + " | Valor: " + getPreco() + " | Quantidade: " + getQuantidade() + 
 				" | Criado em: " + criadoEm;
 	}	
 }
